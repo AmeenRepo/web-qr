@@ -11,11 +11,6 @@
         "description": "Port for web app.4000,5000,3000... any!",
         "value": "5000",
         "required": false 
-      },
-      "MESSAGE": {
-        "description": "set session id conformation message",
-        "value": "*『 DURGA-MD 』*\n _You complete first step to making Bot..._ \n 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』\n*Owner:* _https://wa.me/916238768108?text=AMEENSER 🗡️_\n *Note :*_Don't provide your SESSION_ID to_\n _anyone otherwise that can access chats_",
-        "required": false 
       }
     }   
 
