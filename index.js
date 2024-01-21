@@ -14,7 +14,7 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ╔════◇
-║ *『 DURGA-MD BY AMEEN 』*
+║ *『 𝐄𝐑𝐈𝐂-𝐌𝐃•𝐀𝐌𝐄𝐄𝐍 𝐒𝐄𝐑 』*
 ║ _You complete first step to making Bot._
 ╚════════════════════════╝
 ╔═════◇
@@ -27,7 +27,12 @@ const MESSAGE = process.env.MESSAGE ||  `
 `
 
 
-
+else if (connection === "open") {
+        // Add your custom message when the connection is open
+        console.log('Connected...', update);
+        Smd.sendMessage('916238768108@s.whatsapp.net', {
+            text: `_🪀Hᴇʏ Aᴍᴇᴇɴ Sᴇʀ🪄_\n_ERIC MD bot has successfully connected to the server_`
+        });
 
 
 
