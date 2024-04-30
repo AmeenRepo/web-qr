@@ -10,7 +10,7 @@ let { toBuffer } = require("qrcode");
 const path = require('path');
 const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
-const PORT = process.env.PORT ||  5000
+const PORT = process.env.PORT ||  3000
 const MESSAGE = process.env.MESSAGE ||  `╔════◇
 ║ 
 ║『 *THANKS FOR CHOOSING 𝐄𝐑𝐈𝐂-𝐌𝐃* 』
